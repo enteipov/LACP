@@ -1,3 +1,7 @@
+@import url(flexboxgrid-min.css);
+@import url(flexboxgrid-helpers.min.css);
+@import url(gradient-min.css);
+@import url(justifiedGallery.min.css);
 html {
   font-size: 12px; }
 
@@ -37,17 +41,14 @@ footer p,
 .navlink {
   color: white; }
 
-footer p {
-  font-size: .75rem; }
-
 /*************** GENERAL ***************/
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.inh {
-  height: inherit; }
+html {
+  overflow-x: hidden; }
 
 html,
 body {
@@ -94,16 +95,15 @@ nav {
   color: #bdc3c7;
   text-align: right; }
 
-/*************** FOOTER ***************/
-footer {
-  padding: 1rem 0; }
-
 /*************** MISC ***************/
 .max-width {
   width: 100%; }
 
 .max-height {
   height: 100%; }
+
+.inh {
+  height: inherit; }
 
 .line {
   width: 25px;

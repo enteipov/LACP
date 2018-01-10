@@ -5,14 +5,11 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="description" content="A Los Angeles-based photography agency that caters to the photographic needs of aspiring actors and models">
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Quicksand:400,700" rel="stylesheet">
-		<link href="css/justifiedGallery.min.css" rel="stylesheet">
-		<link href="css/flexboxgrid.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet">
-		<link href="css/gradient.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="jumbotron">
+			<header class="jumbotron" id="intro-section">
 			<div class="jumbotron-gradient max-height max-width"></div>
 				<div class="container max-height">
 					
@@ -21,12 +18,12 @@
 						<div class="col-xs-2 inh"><img id="logo" src="img/lacp.png" alt="Los Angeles Casting Photography Logo"></div>
 						
 						<div class="col-xs-offset-2 col-xs-8">
-							<div class="row around-xs middle-xs" style="height: 100%;">
-								<div class="col-xs-2 navlink-container"><a class="navlink" href="#">Intro</a></div>
-								<div class="col-xs-2 navlink-container"><a class="navlink" href="#">About</a></div>
-								<div class="col-xs-2 navlink-container"><a class="navlink" href="#">Work</a></div>
-								<div class="col-xs-2 navlink-container"><a class="navlink" href="#">Services</a></div>
-								<div class="col-xs-2 navlink-container"><a class="navlink" href="#">Contact</a></div>
+							<div class="row around-xs middle-xs hidden-xs hidden-sm" style="height: 100%;">
+								<div class="col-xs-2 navlink-container"><a class="navlink" href="#intro-section">Intro</a></div>
+								<div class="col-xs-2 navlink-container"><a class="navlink" href="#about-section">About</a></div>
+								<div class="col-xs-2 navlink-container"><a class="navlink" href="#work-section">Work</a></div>
+								<div class="col-xs-2 navlink-container"><a class="navlink" href="#services-section">Services</a></div>
+								<div class="col-xs-2 navlink-container"><a class="navlink" href="#contact-section">Contact</a></div>
 							</div>
 						</div>
 					</div>
@@ -34,15 +31,15 @@
 					
 					<div class="center hero-text">
 						<h1>Don't Get Ready, Be Ready!</h1>
-						<p>LA waits for no one, stay ready so you don't have to get ready.</p>
+						<p>LA waits for no one.</p>
 					</div>
 					
 				</div>
 			</header>
 			<main>
 				<div class="container">
-					
-					<section>
+					<div class="seperator-row"></div>
+					<section id="about-section">
 						<div class="title">
 							<h2 class="main-header">LACP</h2>
 							<P class="sub-header">Los Angeles Casting Photography</P>
@@ -53,7 +50,7 @@
 						</div>
 					</section>
 					<div class="seperator-row"></div>
-					<section>
+					<section id="work-section">
 						<div class="title">
 							<h2 class="main-header">Work</h2>
 							<P class="sub-header">Look At Our Portfolio</P>
@@ -84,25 +81,29 @@
 						</div>
 					</section>
 					<div class="seperator-row"></div>
-					<section>
+					<section id="services-section">
 						<div class="title">
 							<h2 class="main-header">Services</h2>
 							<P class="sub-header">Let Us Help You</P>
 							<div class="line"></div>
 						</div>
 						<div class="text-container">
-							
+							<p><strong>Photography</strong><br/>
+							We offer location-based photo sessions, meaning we do not shoot in a studio. The location for the shoot may be of your choosing and anywhere within Los Angeles County, restrictions apply. </p>
+							<p><strong>Comp Cards</strong><br/>
+							We design professional composition cards that follow industry standards. Cards are supplied in high-resolution digital formats and will include all relevant information from hair color to height.
+							</p>
 						</div>
 					</section>
 					<div class="seperator-row"></div>
-					<section>
+					<section id="contact-section">
 						<div class="title">
 							<h2 class="main-header">Contact</h2>
 							<P class="sub-header">Get In Touch</P>
 							<div class="line"></div>
 						</div>
 						<div class="text-container">
-							<p>Get serious about your modeling/acting career and contact us today to schedule an appointment.</p>
+							<p>Get serious about being a model and actor, contact us today and schedule an appointment.</p>
 							<div class="row">
 								<div class="col-xs-2 contact-labels">
 									<p>Phone<br/>Email</p>
@@ -120,11 +121,17 @@
 			
 			<footer>
 				<div class="container">
-					<p class="copyright">2018 &copy; Los Angeles Casting Photography<br/>Los Angeles, CA</p>
+					<div class="seperator-row"></div>
+					<div class="text-container">
+						<p class="copyright">2018 &copy; Los Angeles Casting Photography<br/>Los Angeles, CA</p>
+					</div>
+					<div class="seperator-row"></div>
 				</div>
 			</footer>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+		<script src="js/jquery.nav.js"></script>
+		<script src="js/jquery.nav-params-min.js"></script>
 		<script src="js/jquery.justifiedGallery.min.js"></script>
 		<script src="js/jquery.justifiedGallery.min.parameters.js"></script>
 	</body>

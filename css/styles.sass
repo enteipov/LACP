@@ -12,8 +12,8 @@ $pad: 1rem 0
 	-webkit-box-sizing: border-box
 	box-sizing:         border-box
 
-.inh
-	height: inherit
+html
+	overflow-x: hidden
 
 html,
 body
@@ -75,21 +75,15 @@ nav
 //
 //
 //
-/*************** FOOTER ***************/
-footer
-	padding: $pad
-//
-//
-//
-//
-//
-//
 /*************** MISC ***************/
 .max-width
 	width: 100%
 
 .max-height
 	height: 100%
+
+.inh
+	height: inherit
 
 .line
 	width: 25px
@@ -110,3 +104,8 @@ footer
 .text-container
 	max-width: 600px
 	margin: 0 auto
+
+@import flexboxgrid-min.css
+@import flexboxgrid-helpers.min.css
+@import gradient-min.css
+@import justifiedGallery.min.css

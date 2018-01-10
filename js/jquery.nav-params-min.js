@@ -1,0 +1,1 @@
+$("nav").onePageNav({currentClass:"current",changeHash:!1,scrollSpeed:750,scrollThreshold:.5,offset:100,filter:"",easing:"swing",begin:function(){},end:function(){},scrollChange:function(n){}});
