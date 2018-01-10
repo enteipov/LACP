@@ -1,0 +1,126 @@
+html {
+  font-size: 12px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: #606060; }
+
+p,
+a {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.25rem;
+  color: #606060; }
+
+.navlink {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none; }
+
+.title {
+  margin: 1rem 0; }
+
+.main-header,
+.sub-header {
+  margin: 0; }
+
+.sub-header {
+  font-family: "Quicksand", sans-serif;
+  color: #bdc3c7;
+  font-size: .75rem; }
+
+footer p,
+.navlink {
+  color: white; }
+
+footer p {
+  font-size: .75rem; }
+
+/*************** GENERAL ***************/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.inh {
+  height: inherit; }
+
+html,
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0; }
+
+/*************** HEADER ***************/
+.jumbotron {
+  position: relative;
+  background-image: url("../img/hero-1.png");
+  background-position: top;
+  background-size: cover;
+  height: 600px;
+  color: white; }
+
+.jumbotron-gradient {
+  position: absolute;
+  opacity: .5; }
+
+.hero-text {
+  text-align: center; }
+  .hero-text h1, .hero-text p {
+    color: white;
+    margin: 0; }
+
+nav {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  padding: 1rem 0; }
+
+.navlink-container {
+  text-align: center; }
+
+#logo {
+  height: inherit; }
+
+.title {
+  text-align: center; }
+
+/*************** MAIN ***************/
+.contact-labels p {
+  color: #bdc3c7;
+  text-align: right; }
+
+/*************** FOOTER ***************/
+footer {
+  padding: 1rem 0; }
+
+/*************** MISC ***************/
+.max-width {
+  width: 100%; }
+
+.max-height {
+  height: 100%; }
+
+.line {
+  width: 25px;
+  height: 1px;
+  margin: .5rem auto 0 auto;
+  background-color: #606060; }
+
+.center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.seperator-row {
+  height: 2.5rem; }
+
+.text-container {
+  max-width: 600px;
+  margin: 0 auto; }
