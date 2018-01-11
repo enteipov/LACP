@@ -90,6 +90,17 @@ nav {
 .title {
   text-align: center; }
 
+.scroll-container {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 3rem); }
+  .scroll-container p {
+    width: 100%;
+    text-align: center;
+    color: white; }
+  .scroll-container .seperator-row {
+    width: 100%; }
+
 /*************** MAIN ***************/
 .contact-labels p {
   color: #bdc3c7;

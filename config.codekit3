@@ -15,15 +15,11 @@
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
-	"\/css\/flexboxgrid-helpers.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/flexboxgrid-helpers.min-min.css",
-		"oF": 0,
-		"oS": 3
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
 		},
 	"\/css\/flexboxgrid-min.css": {
 		"aP": 1,
@@ -95,6 +91,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/justifiedGallery.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/skeleton.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/skeleton-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -269,35 +275,11 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/jquery.nav-params-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/jquery.nav-params-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/jquery.nav-params.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/jquery.nav-params-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/jquery.nav.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/jquery.nav-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+	"\/LACP.textClipping": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LACP.textClipping",
+		"oF": 0
 		}
 	},
 "hooks": [
